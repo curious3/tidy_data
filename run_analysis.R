@@ -59,4 +59,4 @@ data <- merge(x = activity_names,
 tidy_data <- data[,-1]
 
 # write the tidy data
-write.table(tidy_data, file="./tidy_data.txt")
+write.table(tidy_data, file="./tidy_data.txt", row.names = FALSE)
